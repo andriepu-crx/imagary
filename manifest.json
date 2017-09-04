@@ -1,0 +1,22 @@
+{
+  "name": "Imagary",
+  "short_name": "imagary",
+  "description": "Imagery alternative.",
+  "version": "3.0.0",
+  "browser_action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Bukalapak Imagery Alternative"
+  },
+  "icons":
+  {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "manifest_version": 2,
+  "permissions": ["storage", "webRequest", "webRequestBlocking", "<all_urls>"],
+  "web_accessible_resources": ["fonts/*"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
